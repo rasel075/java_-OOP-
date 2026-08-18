@@ -8,4 +8,6 @@ public class house {
         System.out.println(window+" ==== "+door);
 
     }
+
+    
 }

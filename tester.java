@@ -28,7 +28,23 @@ System.out.println("h1... ");
         h2.increaseDoor(5);
        h2.view();
        
+       System.out.println(" \n==Cat_class==\n ");
 
-    
+       cat c1=new cat();
+       System.out.println("m1() call: ");
+       c1.m1();
+        c1.color="white";
+        c1.details();
+        c1.actoin="riding(not sitting) "; // instance varibale also change
+        c1.details();
+        
+        cat c2=new cat();
+        c2.color="Blue";
+        c2.details();
+
+        // changing 
+        c1.changeAction("Riding... ");
+        c1.details();
+     
     }
 }
